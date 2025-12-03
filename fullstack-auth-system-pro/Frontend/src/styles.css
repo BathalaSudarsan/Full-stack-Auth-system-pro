@@ -1,0 +1,134 @@
+/* Global card UI */
+.card {
+  background: #fff;
+  max-width: 380px;
+  width: 100%;
+  padding: 28px;
+  border-radius: 10px;
+  box-shadow: 0 3px 14px rgba(0,0,0,0.1);
+  margin: auto;
+}
+
+.center-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #2563eb;
+  margin-bottom: 14px;
+}
+
+
+/* Input box */
+.input-box {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 8px 0;
+}
+
+/* Buttons */
+.btn-primary {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: #1e4ed8;
+}
+
+/* Text link */
+.text-link {
+  color: #2563eb;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.text-center {
+  text-align: center;
+  margin-top: 12px;
+}
+
+/* Eye icon */
+.eye-icon {
+  position: absolute;
+  right: 12px;
+  top: 11px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Password wrapper */
+.pass-wrapper {
+  position: relative;
+  width: 100%;
+  margin: 8px 0;
+}
+
+/* Navbar */
+.navbar {
+  background: #fff;
+  padding: 14px 20px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-brand {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+}
+
+.nav-link:hover {
+  color: #2563eb;
+}
+
+.logout-btn {
+  background: #ef4444;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: #dc2626;
+}
+
+/* Profile Box */
+.profile-box {
+  background: #fff;
+  padding: 28px;
+  border-radius: 10px;
+  box-shadow: 0 3px 14px rgba(0,0,0,0.1);
+  max-width: 420px;
+  margin: auto;
+}

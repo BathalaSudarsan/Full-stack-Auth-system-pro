@@ -1,0 +1,8 @@
+@import "./styles.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #eef1f6;
+  font-family: Arial, sans-serif;
+}
